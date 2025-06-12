@@ -30,7 +30,11 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           
       - name: Create package
-        run: python package_app.py
+        run: |
+          python package_app.py
+          ls -la
+          echo "Package contents:"
+          unzip -l sackbot-latest.zip
         
       - name: Create Release
         id: create_release
