@@ -1,0 +1,5 @@
+[
+  {"input_path": "input.mp4", "output_path": "batch_gray.mp4", "effect": "grayscale"},
+  {"input_path": "input.mp4", "output_path": "batch_invert.mp4", "effect": "invert"},
+  {"input_path": "input.mp4", "output_path": "batch_bright.mp4", "brightness": 1.5}
+]
